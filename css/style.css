@@ -1,0 +1,439 @@
+@font-face {
+    font-family: Socialico;
+    src: url(../fonts/Socialico.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: arial;
+    
+}
+
+.container {
+    margin: 0 auto;
+    width: 1290px;
+    
+}
+
+.wrapper {
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    color: white;
+    
+}
+
+.text__title {
+    font-size: 60px;
+    margin: 0;
+
+}
+
+.text__item {
+    padding: 25px 0 0 25px;
+    margin: 0;
+    font-size: 20px;
+    list-style-type: none;  
+    line-height: 33px;
+    font-weight: 500; 
+}
+
+.text__item__list {
+    position: relative;
+}
+
+.text__item__list::before {
+    content: "";
+    display: block;
+    background-image: url(https://www.flaticon.com/svg/vstatic/svg/846/846004.svg?token=exp=1618299805~hmac=faab7e800eb6f57403691b1369361fb6);
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: -22px;
+}
+
+
+.img {
+    display: block;
+    width: 470px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    
+}
+
+/* Finish header */
+
+/* First section */
+
+
+section {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject__text {
+    color: #445161;
+    font-size: 30px;
+}
+
+.subject__second__text {
+    width: 650px;
+    font-size: 16px;
+}
+
+.subject__img {
+    display: block;
+    width: 430px;
+    height: 200px;
+    background-color: #445161;
+    color: black;
+}
+
+/* Finish section */
+
+/* Second section */
+
+.section_wrapper {
+    background-color: #f5f5f5;
+}
+
+.title {
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+}
+
+.list__text {
+    display: flex;
+    flex-direction: row;
+}
+
+.list__text__type {
+    flex-direction: column;
+}
+
+.list {
+    list-style-type: none;
+    position: relative;
+}
+
+.list::before {
+    content: "+";
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-color: #445161;
+    /* background-image: url(../img/Layer2.png);
+    background-size: cover; */
+    position: absolute;
+    position: absolute;
+    left: -39px;
+    top: 1px;
+}
+
+/* Finish second section */
+
+/* Third section */
+
+.description__position {
+    display: flex;
+    flex-direction: row;
+}
+
+.description > .box {
+    margin-bottom: 40px;
+}
+
+.description__image {
+    display: block;
+    background-color: #445161;
+    width: 200px;
+    height: 150px;
+    float: left;
+    clear: both;
+    margin-right: 16px;
+}
+
+.description__title {
+    margin: 0;
+    font-size: 24px;
+    color: #445161;
+}
+
+.description__subtitle {
+    width: 99%;
+}
+
+/* Finish third section */
+
+/* Thorth section */
+
+.review__box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box__direction {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.box__img {
+    display: block;
+    background-color: #445161;
+    width: 74px;
+    height: 74px;
+    border-radius: 100px;
+    margin: 0 12px 0 0px;
+
+}
+
+.background__text {
+    background-color: #ebebeb;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+}
+
+.review__text {
+    margin: 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.review__autor {
+    margin: 10px 0 0 0;
+    color: #989898;
+    font-size: 14px;
+
+}
+
+/* Finish fourth section */
+
+/* Fifth section */
+
+.content__price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 105px;
+}
+
+.content__box {
+    background-color: #445161;
+    width: 300px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-right: 45px;
+}
+
+.title__box {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 19px;
+    box-sizing: border-box;
+}
+
+.price {
+    background-color: white;
+    height: 70px;
+    font-size: 40px;
+    color: #445161;
+    text-align: center;
+    margin: 0 2px 0 2px;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.box__list {
+    color: white;
+    line-height: 1.8;
+}
+
+.button {
+    display: block;
+    border: none;
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Finish fifth section */
+
+/* Footer */
+
+.footer__section {
+    margin: 0;
+    width: 1280px;
+}
+
+.footer__title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section__register {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0 230px;
+}
+
+.register {
+    margin-right: 50px;
+    position: relative;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+   
+}
+
+.register__item {
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #445161;
+    font-size: 16px;
+}
+
+textarea {
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #445161;
+    font-size: 16px;
+    height: 170px;
+    font-family: arial;
+    resize: none;
+}
+
+.register__btn {
+    width: 140px;
+    padding: 8px;
+    position: absolute;
+    bottom: -35px;
+    left: 156px;
+    color: #445161;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.contact__list__item {
+    color: white;
+    list-style-type: none;
+    margin: 0;
+}
+
+.contact__list__item__position {
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+.contact__list__item__position:nth-child(1):before {
+    width: 25px;
+    height: 25px;
+    content: "";
+    display: block;
+    background-image: url(../img/skype\ icon.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -30px;
+}   
+
+.contact__list__item__position:nth-child(2):before {
+    width: 25px;
+    height: 25px;
+    content: "";
+    display: block;
+    background-image: url(../img/icq\ icon.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -30px;
+}  
+
+.contact__list__item__position:nth-child(3):before {
+    width: 25px;
+    height: 25px;
+    content: "";
+    display: block;
+    background-image: url(../img/email\ icon.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -30px;
+} 
+
+.contact__list__item__position:nth-child(4):before {
+    width: 25px;
+    height: 25px;
+    content: "";
+    display: block;
+    background-image: url(../img/phone\ icon.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -30px;
+}  
+
+.social__item a{
+    font-family: socialico;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+/* Copyright */
+
+.footer__copyright p {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
